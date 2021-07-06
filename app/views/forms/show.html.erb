@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @form.name %>
+</p>
+
+<p>
+  <strong>Fathername:</strong>
+  <%= @form.fathername %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @form.gender %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @form.email %>
+</p>
+
+<p>
+  <strong>Dateofbirth:</strong>
+  <%= @form.dateofbirth %>
+</p>
+
+<p>
+  <strong>Ssc:</strong>
+  <%= @form.ssc %>
+</p>
+
+<p>
+  <strong>Inter:</strong>
+  <%= @form.inter %>
+</p>
+
+<p>
+  <strong>Btech:</strong>
+  <%= @form.btech %>
+</p>
+
+<%= link_to 'Edit', edit_form_path(@form) %> |
+<%= link_to 'Back', forms_path %>

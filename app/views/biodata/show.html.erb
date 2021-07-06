@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @biodatum.name %>
+</p>
+
+<p>
+  <strong>Fathername:</strong>
+  <%= @biodatum.fathername %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @biodatum.gender %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @biodatum.email %>
+</p>
+
+<p>
+  <strong>Dateofbirth:</strong>
+  <%= @biodatum.dateofbirth %>
+</p>
+
+<p>
+  <strong>Ssc:</strong>
+  <%= @biodatum.ssc %>
+</p>
+
+<p>
+  <strong>Inter:</strong>
+  <%= @biodatum.inter %>
+</p>
+
+<p>
+  <strong>Btech:</strong>
+  <%= @biodatum.btech %>
+</p>
+
+<%= link_to 'Edit', edit_biodatum_path(@biodatum) %> |
+<%= link_to 'Back', biodata_path %>
